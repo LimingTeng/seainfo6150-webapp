@@ -1,6 +1,6 @@
 .container {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto;
     list-style: none;
     padding: 5px;
     margin: 20px;
@@ -14,3 +14,23 @@
     height: 100%;
     width: 100%;
 }
+
+@media(min-width: 600px){
+    .container{
+        background-color: black;
+        grid-template-columns: auto auto;
+    }
+}
+
+@media(min-width: 800px){
+    .container{
+        background-color: yellow;
+    }
+}
+
+@media(min-width: 1000px){
+    .container{
+        background-color: blue;
+        grid-template-columns: auto auto auto;
+    }
+}   
