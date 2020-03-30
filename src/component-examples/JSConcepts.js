@@ -13,8 +13,8 @@ const JSConcepts = (props) => {
   const stringWithValue = `This is a string with ${userName} embedded`;
   console.log('STRING 3', stringWithValue);
 
-  let foo = 5;
-  foo = foo + 1;
+  // let foo = 5;
+  // foo = foo + 1;
 
 
   // FUNCTION
