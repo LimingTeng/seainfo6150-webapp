@@ -5,10 +5,10 @@ import styles from "./ArticleList.module.css";
 
 const ArticleList = props => {
   return (
-    <ul className={styles.container}>
+    <ul className = {styles.container}>
       {props.articles.map(article => (
-        <li className={styles.li} key={article.slug}>
-          <ArticleListItem article={article}/>
+        <li className = {styles.li} key = {article.slug}>
+          <ArticleListItem article = {article}/>
         </li>
       ))}
     </ul>
